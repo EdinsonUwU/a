@@ -1,0 +1,20 @@
+crear una funcion, que dado la COPIA de un board, y unas coordenadas en formato row,column
+devuelva esa copia del board con un playerid en row,column positions 
+esta funcion es para ver el board en la consola dado unas coordenadas
+
+pensar en una heuristica, una heuristica puede ser, con dfs, mirar la cantidad de hexes
+conectados para cada jugador. Retorando la diferencia entre el resultado de esa busqueda 
+profunda de un jugador, con el resultado de la busqueda profunda del jugador openente.
+
+--completado hasta aqui
+
+jugar contra esa heuristica y darse cuenta que no es suficiente
+
+
+
+complementar la primera heuristica con otra que tome en cuenta patrones:
+--doble connected
+--straight line
+y por ultimo, la mas importante, salto de offset.
+
+fin.
